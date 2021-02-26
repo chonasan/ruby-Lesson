@@ -2,6 +2,6 @@ require "minitest/autorun"
 
 class SampleTest < Minitest::Test
   def test_sample
-    assert_equal'RUBY','ruby'.capitalize
-  end
+    assert_equal'RUBY','ruby'.upcase
+  endj
 end
